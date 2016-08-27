@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D25F490A1D706AAC007CF16D /* Data+string.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25F49081D706AAC007CF16D /* Data+string.swift */; };
+		D25F490B1D706AAC007CF16D /* Data+string.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25F49081D706AAC007CF16D /* Data+string.swift */; };
+		D25F490C1D706AAC007CF16D /* URLRequest+multipart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25F49091D706AAC007CF16D /* URLRequest+multipart.swift */; };
+		D25F49101D706B75007CF16D /* URLRequest+multipart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25F49091D706AAC007CF16D /* URLRequest+multipart.swift */; };
 		D2C117DE1D705673004CE644 /* MultipartFormData.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C117DD1D705673004CE644 /* MultipartFormData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2C117E51D705673004CE644 /* MultipartFormData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C117DA1D705673004CE644 /* MultipartFormData.framework */; };
 		D2C117EA1D705673004CE644 /* MultipartFormDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C117E91D705673004CE644 /* MultipartFormDataTests.swift */; };
-		D2C117F61D705689004CE644 /* NSMutbleURLRequest+multipart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C117F41D705689004CE644 /* NSMutbleURLRequest+multipart.swift */; };
-		D2C117F71D705689004CE644 /* NSMutableData+string.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C117F51D705689004CE644 /* NSMutableData+string.swift */; };
 		D2C118001D70570C004CE644 /* MultipartFromDataOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C117FF1D70570C004CE644 /* MultipartFromDataOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2C118071D70570C004CE644 /* MultipartFromDataOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C117FD1D70570C004CE644 /* MultipartFromDataOSX.framework */; };
 		D2C1180C1D70570C004CE644 /* MultipartFromDataOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C1180B1D70570C004CE644 /* MultipartFromDataOSXTests.swift */; };
-		D2C118141D705716004CE644 /* NSMutbleURLRequest+multipart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C117F41D705689004CE644 /* NSMutbleURLRequest+multipart.swift */; };
-		D2C118151D705716004CE644 /* NSMutableData+string.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C117F51D705689004CE644 /* NSMutableData+string.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D25F49081D706AAC007CF16D /* Data+string.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+string.swift"; sourceTree = "<group>"; };
+		D25F49091D706AAC007CF16D /* URLRequest+multipart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+multipart.swift"; sourceTree = "<group>"; };
 		D2C117DA1D705673004CE644 /* MultipartFormData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MultipartFormData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C117DD1D705673004CE644 /* MultipartFormData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipartFormData.h; sourceTree = "<group>"; };
 		D2C117DF1D705673004CE644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2C117E41D705673004CE644 /* MultipartFormDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipartFormDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C117E91D705673004CE644 /* MultipartFormDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartFormDataTests.swift; sourceTree = "<group>"; };
 		D2C117EB1D705673004CE644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2C117F41D705689004CE644 /* NSMutbleURLRequest+multipart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutbleURLRequest+multipart.swift"; sourceTree = "<group>"; };
-		D2C117F51D705689004CE644 /* NSMutableData+string.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableData+string.swift"; sourceTree = "<group>"; };
 		D2C117FD1D70570C004CE644 /* MultipartFromDataOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MultipartFromDataOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C117FF1D70570C004CE644 /* MultipartFromDataOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipartFromDataOSX.h; sourceTree = "<group>"; };
 		D2C118011D70570C004CE644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -113,8 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				D2C117DD1D705673004CE644 /* MultipartFormData.h */,
-				D2C117F41D705689004CE644 /* NSMutbleURLRequest+multipart.swift */,
-				D2C117F51D705689004CE644 /* NSMutableData+string.swift */,
+				D25F49091D706AAC007CF16D /* URLRequest+multipart.swift */,
+				D25F49081D706AAC007CF16D /* Data+string.swift */,
 				D2C117DF1D705673004CE644 /* Info.plist */,
 			);
 			path = MultipartFormData;
@@ -248,20 +248,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "ZEN+";
 				TargetAttributes = {
 					D2C117D91D705673004CE644 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					D2C117E31D705673004CE644 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 					D2C117FC1D70570C004CE644 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					D2C118051D70570C004CE644 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -321,8 +324,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C117F71D705689004CE644 /* NSMutableData+string.swift in Sources */,
-				D2C117F61D705689004CE644 /* NSMutbleURLRequest+multipart.swift in Sources */,
+				D25F490C1D706AAC007CF16D /* URLRequest+multipart.swift in Sources */,
+				D25F490A1D706AAC007CF16D /* Data+string.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,8 +341,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C118151D705716004CE644 /* NSMutableData+string.swift in Sources */,
-				D2C118141D705716004CE644 /* NSMutbleURLRequest+multipart.swift in Sources */,
+				D25F49101D706B75007CF16D /* URLRequest+multipart.swift in Sources */,
+				D25F490B1D706AAC007CF16D /* Data+string.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,8 +384,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -430,8 +435,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -451,6 +458,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -461,6 +469,8 @@
 		D2C117EF1D705673004CE644 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -471,12 +481,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenplus.MultipartFormData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		D2C117F01D705673004CE644 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -487,12 +501,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenplus.MultipartFormData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		D2C117F21D705673004CE644 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MultipartFormDataTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenplus.MultipartFormDataTests;
@@ -503,6 +519,7 @@
 		D2C117F31D705673004CE644 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MultipartFormDataTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenplus.MultipartFormDataTests;
@@ -513,7 +530,8 @@
 		D2C1180F1D70570C004CE644 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -528,13 +546,16 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		D2C118101D70570C004CE644 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -549,12 +570,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		D2C118121D70570C004CE644 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MultipartFromDataOSXTests/Info.plist;
@@ -563,12 +586,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenplus.MultipartFromDataOSXTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		D2C118131D70570C004CE644 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MultipartFromDataOSXTests/Info.plist;
@@ -577,6 +602,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenplus.MultipartFromDataOSXTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -599,6 +625,7 @@
 				D2C117F01D705673004CE644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2C117F11D705673004CE644 /* Build configuration list for PBXNativeTarget "MultipartFormDataTests" */ = {
 			isa = XCConfigurationList;
@@ -607,6 +634,7 @@
 				D2C117F31D705673004CE644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2C1180E1D70570C004CE644 /* Build configuration list for PBXNativeTarget "MultipartFromDataOSX" */ = {
 			isa = XCConfigurationList;
@@ -615,6 +643,7 @@
 				D2C118101D70570C004CE644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2C118111D70570C004CE644 /* Build configuration list for PBXNativeTarget "MultipartFromDataOSXTests" */ = {
 			isa = XCConfigurationList;
@@ -623,6 +652,7 @@
 				D2C118131D70570C004CE644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
